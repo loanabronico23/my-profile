@@ -1,0 +1,83 @@
+h1, h2, h3 {font-family: 'Karla', sans-serif;}
+p, a {font-family: 'Roboto', sans-serif;}
+
+h1{color: #015D3A;}
+
+.btn-green{text-decoration: none;
+background-color : #015D3A;
+color:white;
+padding: 8px 24px;
+border-radius: 6px;}
+.btn-green:hover{background-color: #BEE3A0; transition: 0,5s;}
+
+
+p {text-align: center;}
+
+img{width: 132px ; height: 132px;
+border-radius : 50% }
+
+.container{
+	width: 800px;
+	margin: 0 auto;
+}
+
+.card-white {
+background: white;
+padding: 24px;
+border-radius: 6px;
+text-align: center;
+box-shadow: 0 12px 30px rgba(30, 30, 0, 0.2);
+margin-bottom: 24px;
+
+}
+
+ul	{
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+
+.logosocialmedia:hover {color: #BEE3A0; transition: 0,5s;}
+
+.logosocialmedia{font-size: 40px;
+color: #015D3A
+}
+
+
+li{
+		display: inline;
+		margin: 0 8px;
+
+}
+#card-cookies {
+	background-image: url(image/cookie.JPG);
+background-size: cover;
+background-position: center;}
+
+#card-cookies h1{
+	color: white;
+
+}
+
+#card-cookies p{
+	color: white;
+
+}
+
+@media (max-width:  720px) {
+	.container{
+		width: 560px;
+	}
+}
+
+
+@media (max-width : 500px) {
+
+	.container {
+		width: 320px;
+	}
+}
+
+
+
